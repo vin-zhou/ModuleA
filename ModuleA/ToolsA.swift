@@ -10,7 +10,7 @@ import Foundation
 
 public class ToolsA {
     
-    func show() -> String {
+    public func show() -> String {
         return "ToolsA -> show()"
     }
     
