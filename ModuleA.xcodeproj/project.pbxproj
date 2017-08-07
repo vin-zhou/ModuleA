@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		47D700BD1F384F66008C0F71 /* ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D700BB1F384F66008C0F71 /* ModuleA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47D700C21F384F7C008C0F71 /* ToolsA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D700C11F384F7C008C0F71 /* ToolsA.swift */; };
+		47D700CA1F386784008C0F71 /* ToolsB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D700C91F386784008C0F71 /* ToolsB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		47D700BB1F384F66008C0F71 /* ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleA.h; sourceTree = "<group>"; };
 		47D700BC1F384F66008C0F71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47D700C11F384F7C008C0F71 /* ToolsA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsA.swift; sourceTree = "<group>"; };
+		47D700C91F386784008C0F71 /* ToolsB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsB.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 				47D700BB1F384F66008C0F71 /* ModuleA.h */,
 				47D700BC1F384F66008C0F71 /* Info.plist */,
 				47D700C11F384F7C008C0F71 /* ToolsA.swift */,
+				47D700C91F386784008C0F71 /* ToolsB.swift */,
 			);
 			path = ModuleA;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47D700CA1F386784008C0F71 /* ToolsB.swift in Sources */,
 				47D700C21F384F7C008C0F71 /* ToolsA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
